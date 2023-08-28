@@ -1,4 +1,4 @@
-### Hi there 👋
+### Currently working on some college\personal projects
 
 <!--
 **laliahaidara/laliahaidara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
