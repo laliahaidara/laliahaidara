@@ -1,5 +1,5 @@
 ### Currently working on some college\personal projects
-<img align="center" alt="KaiXtr-Git" height="50" width="40" 
+
  
 <!--
 **laliahaidara/laliahaidara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
