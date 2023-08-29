@@ -1,5 +1,5 @@
-### Currently working on some college\personal projects
-
+### Olá, eu a Lalia 
+#### aprendi/estou aprendendo
  
 <!--
 **laliahaidara/laliahaidara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
