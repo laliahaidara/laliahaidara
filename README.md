@@ -1,4 +1,4 @@
-### Olá, eu a Lalia 
+### Olá,meu nome é Lalia 
 #### aprendi/estou aprendendo
  
 <!--
