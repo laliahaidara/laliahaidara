@@ -1,4 +1,4 @@
-### Olá,meu nome é Lalia 
+### Programadora em desenvolvimento
 #### aprendi/estou aprendendo
  
 <!--
