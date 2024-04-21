@@ -1,4 +1,4 @@
-### Programadora em desenvolvimento
+### Graduanda de Tecnologia em Sistemas para Internert
 #### aprendi/estou aprendendo
  
 <!--
