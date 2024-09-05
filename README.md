@@ -29,13 +29,3 @@ Here are some ideas to get you started:
 <img align="center" alt="KaiXtr-Git" height="50" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
 
 </div>
-
-
-
-
-<br>
-<br>
-https://www.canva.com/design/DAGPVPgAVRE/2WbeGBTuaLiASjqNbi3P9g/edit?utm_content=DAGPVPgAVRE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-<br><br>
-
-https://colab.research.google.com/drive/1PwNc4YuMKF2nRrxYrJQb2FJC4oOJFdH3?usp=sharing
