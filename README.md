@@ -7,10 +7,6 @@
   <a href="https://www.linkedin.com/in/lalia-sadio/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=laliahaidara&label=Visitas+no+Perfil&color=E91E63&style=flat" alt="laliahaidara" />
-</p>
-
 ---
 
 ### 👩‍💻 Sobre Mim
