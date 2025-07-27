@@ -11,7 +11,7 @@ Meu principal interesse está na área de **análise e visualização de dados**
 - 🔭 Atualmente estou aprofundando meus estudos em **Data Science com R e Python**.
 - 🌱 Buscando minha primeira oportunidade para atuar como Desenvolvedora ou Analista de Dados.
 - 💬 Me chame para falar sobre: R, Shiny, projetos de impacto social e mulheres na tecnologia.
-- 📫 Onde me encontrar: lalia.haidara@email.com
+- 📫 Onde me encontrar: laliahaidarasadio@gmail.com
 
 ---
 
@@ -63,16 +63,16 @@ Aqui estão algumas das tecnologias com as quais tenho trabalhado:
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">Outro Projeto Incrível</h3>
+      <h3 align="center">IntegraIF Hub</h3>
       <div align="center">
-        <a href="#" target="_blank">
+        <a href="https://github.com/laliahaidara/IntegraIF-HUB" target="_blank">
           <img src="https://via.placeholder.com/400x210.png/333/fff?text=Seu+Outro+Projeto" width="400" alt="Preview de Outro Projeto">
         </a>
         <p>
-          O IntegraIF é uma plataforma web desenvolvida para unificar e impulsionar as Empresas Juniores (EJs) do Instituto Federal de Brasília (IFB). Atuando como um hub central, o sistema permite que as EJs existentes divulguem seus serviços e colaborem entre si, enquanto incentiva a criação de novas empresas na instituição. Com funcionalidades como vitrine de projetos, agendamento de reuniões e cadastro de novas iniciativas, o IntegraIF visa fortalecer a cultura empreendedora e conectar talentos dentro do IFB.
-          <a href="#" target="_blank">
-            <img src="https://img.shields.io/badge/C%C3%B3digo-100000?style=for-the-badge&logo=github&logoColor=white">
+          <a href="https://github.com/laliahaidara/IntegraIF-HUB" target="_blank">
+            <img width="1600" height="868" alt="image" src="https://github.com/user-attachments/assets/2a6aaf25-17e0-44a6-83d6-c591c93dcbb6" />
           </a>
+          O IntegraIF é uma plataforma web desenvolvida para unificar e impulsionar as Empresas Juniores (EJs) do Instituto Federal de Brasília (IFB). Atuando como um hub central, o       sistema permite que as EJs existentes divulguem seus serviços e colaborem entre si, enquanto incentiva a criação de novas empresas na instituição. Com funcionalidades como vitrine de projetos, agendamento de reuniões e cadastro de novas iniciativas, o IntegraIF visa fortalecer a cultura empreendedora e conectar talentos dentro do IFB.
         </p>
         <p>
           Breve descrição do seu segundo projeto em destaque.
