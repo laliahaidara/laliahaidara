@@ -69,6 +69,7 @@ Aqui estão algumas das tecnologias com as quais tenho trabalhado:
           <img src="https://via.placeholder.com/400x210.png/333/fff?text=Seu+Outro+Projeto" width="400" alt="Preview de Outro Projeto">
         </a>
         <p>
+          O IntegraIF é uma plataforma web desenvolvida para unificar e impulsionar as Empresas Juniores (EJs) do Instituto Federal de Brasília (IFB). Atuando como um hub central, o sistema permite que as EJs existentes divulguem seus serviços e colaborem entre si, enquanto incentiva a criação de novas empresas na instituição. Com funcionalidades como vitrine de projetos, agendamento de reuniões e cadastro de novas iniciativas, o IntegraIF visa fortalecer a cultura empreendedora e conectar talentos dentro do IFB.
           <a href="#" target="_blank">
             <img src="https://img.shields.io/badge/C%C3%B3digo-100000?style=for-the-badge&logo=github&logoColor=white">
           </a>
