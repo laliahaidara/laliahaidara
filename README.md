@@ -48,9 +48,7 @@ Aqui estão algumas das tecnologias com as quais tenho trabalhado:
     <td width="50%">
       <h3 align="center">💜 Proteja Elas</h3>
       <div align="center">
-        <a href="https://github.com/laliahaidara/protejaelas" target="_blank">
-          <img src="https://i.imgur.com/gK5WJm5.png" width="400" alt="Preview do Proteja Elas">
-        </a>
+        <a href="https://github.com/laliahaidara/protejaelas" target="_blank"></a>
         <p>
           <a href="https://github.com/laliahaidara/protejaelas" target="_blank">
             <img src="https://img.shields.io/badge/C%C3%B3digo-100000?style=for-the-badge&logo=github&logoColor=white">
