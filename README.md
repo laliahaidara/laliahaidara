@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://i.imgur.com/your_banner_image.png" alt="Banner com meu nome ou uma imagem tech" width="800"/>
 </p>
----
 
 ### 👋 Olá! Eu sou a Lalia Sadio.
 
@@ -57,7 +56,7 @@ Aqui estão algumas das tecnologias com as quais tenho trabalhado:
             <img src="https://img.shields.io/badge/C%C3%B3digo-100000?style=for-the-badge&logo=github&logoColor=white">
           </a>
           <a href="https://protejaelas.shinyapps.io/protejaelas/" target="_blank">
-            <img src="https://img.shields.io/badge/Acessar%20App-brightgreen?style=for-the-badge&logo=shiny">
+            <img width="1458" height="765" alt="Captura de Tela 2025-07-27 às 14 36 59" src="https://github.com/user-attachments/assets/73ff1c7b-d457-4081-ae92-2e7a9fa57b96" />
           </a>
         </p>
         <p>
