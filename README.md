@@ -1,46 +1,3 @@
-<p align="center">
-  <img src="https://i.imgur.com/your_banner_image.png" alt="Banner com meu nome ou uma imagem tech" width="800"/>
-</p>
-
-### 👋 Olá! Eu sou a Lalia Sadio.
-
-Sou uma desenvolvedora apaixonada por criar soluções tecnológicas com impacto social. Recentemente, me formei em **Tecnologia em Sistemas para Internet** pelo **Instituto Federal de Brasília (IFB)**, onde tive a honra de concluir meu Trabalho de Conclusão de Curso com **nota máxima**.
-
-Meu principal interesse está na área de **análise e visualização de dados**, utilizando a tecnologia para transformar números complexos em narrativas acessíveis e poderosas que podem gerar conscientização e mudança. O projeto **Proteja Elas** é o maior exemplo dessa paixão em prática.
-
-- 🔭 Atualmente estou aprofundando meus estudos em **Data Science com R e Python**.
-- 🌱 Buscando minha primeira oportunidade para atuar como Desenvolvedora ou Analista de Dados.
-- 💬 Me chame para falar sobre: R, Shiny, projetos de impacto social e mulheres na tecnologia.
-- 📫 Onde me encontrar: laliahaidarasadio@gmail.com
-
----
-
-### 🛠️ Tecnologias e Ferramentas
-
-Aqui estão algumas das tecnologias com as quais tenho trabalhado:
-
-<p align="left">
-  <a href="#"><img alt="R" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"/></a>
-  <a href="#"><img alt="Python" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/></a>
-  <a href="#"><img alt="Node.js" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"/></a>
-  <a href="#"><img alt="Dart" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"/></a>
-  <a href="#"><img alt="Flutter" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"/></a>
-  <a href="#"><img alt="JavaScript" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/></a>
-  <a href="#"><img alt="HTML5" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/></a>
-  <a href="#"><img alt="CSS3" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/></a>
-  <a href="#"><img alt="Swift" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"/></a>
-  <a href="#"><img alt="C" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"/></a>
-  <br/>
-  <a href="#"><img alt="Shiny" height="40" src="https://raw.githubusercontent.com/rstudio/hex-stickers/main/PNG/shiny.png"/></a>
-  <a href="#"><img alt="RStudio" height="40" src="https://raw.githubusercontent.com/rstudio/hex-stickers/main/PNG/rstudio.png"/></a>
-  <a href="#"><img alt="MySQL" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"/></a>
-  <a href="#"><img alt="SQL Server" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"/></a>
-  <a href="#"><img alt="Figma" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"/></a>
-  <a href="#"><img alt="Git" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/></a>
-</p>
-
----
-
 ### 🚀 Projetos em Destaque
 
 <table>
@@ -48,13 +5,15 @@ Aqui estão algumas das tecnologias com as quais tenho trabalhado:
     <td width="50%">
       <h3 align="center">💜 Proteja Elas</h3>
       <div align="center">
-        <a href="https://github.com/laliahaidara/protejaelas" target="_blank"></a>
+        <a href="https://protejaelas.shinyapps.io/protejaelas/" target="_blank">
+            <img width="400" alt="Captura de Tela do Proteja Elas" src="https://github.com/user-attachments/assets/73ff1c7b-d457-4081-ae92-2e7a9fa57b96" />
+        </a>
         <p>
           <a href="https://github.com/laliahaidara/protejaelas" target="_blank">
-            <img src="https://img.shields.io/badge/C%C3%B3digo-100000?style=for-the-badge&logo=github&logoColor=white">
+            <img src="https://img.shields.io/badge/C%C3%B3digo-E91E63?style=for-the-badge&logo=github&logoColor=white">
           </a>
           <a href="https://protejaelas.shinyapps.io/protejaelas/" target="_blank">
-            <img width="1458" height="765" alt="Captura de Tela 2025-07-27 às 14 36 59" src="https://github.com/user-attachments/assets/73ff1c7b-d457-4081-ae92-2e7a9fa57b96" />
+            <img src="https://img.shields.io/badge/Acessar%20App-E91E63?style=for-the-badge&logo=shiny&logoColor=white">
           </a>
         </p>
         <p>
@@ -63,19 +22,18 @@ Aqui estão algumas das tecnologias com as quais tenho trabalhado:
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">IntegraIF Hub</h3>
+      <h3 align="center">💡 IntegraIF Hub</h3>
       <div align="center">
         <a href="https://github.com/laliahaidara/IntegraIF-HUB" target="_blank">
-          <img src="https://via.placeholder.com/400x210.png/333/fff?text=Seu+Outro+Projeto" width="400" alt="Preview de Outro Projeto">
+           <img width="400" alt="image" src="https://github.com/user-attachments/assets/2a6aaf25-17e0-44a6-83d6-c591c93dcbb6" />
         </a>
         <p>
           <a href="https://github.com/laliahaidara/IntegraIF-HUB" target="_blank">
-            <img width="1600" height="868" alt="image" src="https://github.com/user-attachments/assets/2a6aaf25-17e0-44a6-83d6-c591c93dcbb6" />
+            <img src="https://img.shields.io/badge/C%C3%B3digo-E91E63?style=for-the-badge&logo=github&logoColor=white">
           </a>
-          O IntegraIF é uma plataforma web desenvolvida para unificar e impulsionar as Empresas Juniores (EJs) do Instituto Federal de Brasília (IFB). Atuando como um hub central, o       sistema permite que as EJs existentes divulguem seus serviços e colaborem entre si, enquanto incentiva a criação de novas empresas na instituição. Com funcionalidades como vitrine de projetos, agendamento de reuniões e cadastro de novas iniciativas, o IntegraIF visa fortalecer a cultura empreendedora e conectar talentos dentro do IFB.
         </p>
         <p>
-          Breve descrição do seu segundo projeto em destaque.
+          Hub digital para conectar e fortalecer as Empresas Juniores do Instituto Federal de Brasília (IFB), incentivando a colaboração e o empreendedorismo.
         </p>
       </div>
     </td>
@@ -84,17 +42,8 @@ Aqui estão algumas das tecnologias com as quais tenho trabalhado:
 
 ---
 
-### 📊 Minhas Estatísticas no GitHub
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=laliahaidara&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=laliahaidara&layout=compact&langs_count=7&theme=dracula"/>
-</p>
-
----
-
 ### 📫 Conecte-se comigo
 
 <p align="left">
-<a href="https://www.linkedin.com/in/lalia-sadio/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/lalia-sadio/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-D53A9D?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </p>
