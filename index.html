@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Lalia Sadio - Desenvolvedora Front-End</title>
+    <title>Lalia Sadio - linda</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -28,10 +28,13 @@
                 <div class="hero-text reveal">
                     <h2>Olá, eu sou <span>Lalia Sadio</span></h2>
                     <p>Desenvolvedora Front-End apaixonada por criar interfaces incríveis e de impacto social.</p>
-                    <a href="#projetos" class="btn-rosa">Ver Projetos</a>
-                    <div class="socials">
-                        <a href="https://www.linkedin.com/in/lalia-sadio/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/laliahaidara" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    
+                    <div class="hero-cta">
+                        <a href="#projetos" class="btn-rosa">Ver Projetos</a>
+                        <div class="socials">
+                            <a href="https://www.linkedin.com/in/lalia-sadio/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/laliahaidara" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="hero-img reveal">
@@ -57,63 +60,84 @@
         <section id="projetos" class="section reveal">
             <h2>Projetos em Destaque</h2>
             <div class="projetos-grid">
-                <div class="projeto-card reveal">
-                    <img src="https://via.placeholder.com/400x250/FFC0CB/333?text=Proteja+Elas" alt="Imagem do projeto Proteja Elas">
-                    <h3>Proteja Elas</h3>
-                    <p>Dashboard interativo sobre violência contra mulheres no DF, desenvolvido como TCC para gerar conscientização através de dados.</p>
-                    <div class="tags">
-                        <span>Power BI</span>
-                        <span>Storytelling</span>
-                        <span>Análise de Dados</span>
-                    </div>
-                    <div class="links">
-                        <a href="#" class="btn-projeto">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
-                        <a href="#" class="btn-projeto">Código <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
 
-                <div class="projeto-card reveal">
-                    <img src="https://via.placeholder.com/400x250/FFB6C1/333?text=Mapeamento+Cerrado" alt="Imagem do projeto Mapeamento do Cerrado">
-                    <h3>Mapeamento do Cerrado</h3>
-                    <p>Sistema web e mobile com geolocalização para interação comunitária e mapeamento de recursos naturais do Cerrado.</p>
-                    <div class="tags">
-                        <span>Geolocalização</span>
-                        <span>React</span>
-                        <span>Firebase</span>
-                        <span>Mobile</span>
-                    </div>
-                    <div class="links">
-                        <a href="#" class="btn-projeto">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
-                        <a href="#" class="btn-projeto">Código <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
+    <div class="projeto-card-destaque reveal">
+        <div class="selo-publicacao">
+            <i class="fas fa-award"></i> Publicado no IHC 2025
+        </div>
+        <img src="https://via.placeholder.com/800x400/FFB6C1/333?text=Demonstração+em+Ação" alt="Screenshot da demonstração publicada">
+        <h3>Título da Demonstração Publicada</h3>
+        <p>Esta é a descrição do seu trabalho incrível que foi aceito no simpósio. Explique o que ele faz, sua inovação e qual foi sua principal contribuição para o projeto.</p>
+        <div class="tags">
+            <span>UX Research</span>
+            <span>React</span>
+            <span>Protótipo</span>
+            <span>Acessibilidade</span>
+        </div>
+        <div class="links">
+            <a href="#" target="_blank" class="btn-rosa"><i class="fas fa-video"></i> Ver Vídeo</a>
+            <a href="#" target="_blank" class="btn-projeto"><i class="fas fa-file-alt"></i> Ler Artigo</a>
+            <a href="#" target="_blank" class="btn-projeto"><i class="fab fa-github"></i> Código</a>
+        </div>
+    </div>
 
-                <div class="projeto-card reveal">
-                    <img src="https://via.placeholder.com/400x250/FF69B4/fff?text=STELAS" alt="Imagem do projeto STELAS">
-                    <h3>STELAS (Reabnet)</h3>
-                    <p>Projeto acadêmico sobre Saúde em Tecnologias Emergentes, explorando o uso de IA e RV para reabilitação e bem-estar.</p>
-                    <div class="tags">
-                        <span>Inteligência Artificial</span>
-                        <span>Realidade Virtual</span>
-                        <span>Jogos Sérios</span>
-                    </div>
-                    <div class="links">
-                        <a href="#" class="btn-projeto">Ver Artigo <i class="fas fa-file-alt"></i></a>
-                        <a href="#" class="btn-projeto">GitHub <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
+    <div class="projeto-card reveal">
+        <img src="https://via.placeholder.com/400x250/FFC0CB/333?text=Proteja+Elas" alt="Imagem do projeto Proteja Elas">
+        <h3>Proteja Elas</h3>
+        <p>Dashboard interativo sobre violência contra mulheres no DF, desenvolvido como TCC para gerar conscientização através de dados.</p>
+        <div class="tags">
+            <span>Power BI</span>
+            <span>Storytelling</span>
+            <span>Análise de Dados</span>
+        </div>
+        <div class="links">
+            <a href="https://protejaelas.shinyapps.io/protejaelas/" class="btn-projeto">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+            <a href="https://github.com/laliahaidara/protejaelas" class="btn-projeto">Código <i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <div class="projeto-card reveal">
+        <img src="https://via.placeholder.com/400x250/FFB6C1/333?text=Mapeamento+Cerrado" alt="Imagem do projeto Mapeamento do Cerrado">
+        <h3>Mapeamento do Cerrado</h3>
+        <p>Sistema web e mobile com geolocalização para interação comunitária e mapeamento de recursos naturais do Cerrado.</p>
+        <div class="tags">
+            <span>Geolocalização</span>
+            <span>React</span>
+            <span>Firebase</span>
+            <span>Mobile</span>
+        </div>
+        <div class="links">
+            <a href="#" class="btn-projeto">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="btn-projeto">Código <i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <div class="projeto-card reveal">
+        <img src="https://via.placeholder.com/400x250/FF69B4/fff?text=STELAS" alt="Imagem do projeto STELAS">
+        <h3>STELAS (Reabnet)</h3>
+        <p>Projeto acadêmico sobre Saúde em Tecnologias Emergentes, explorando o uso de IA e RV para reabilitação e bem-estar.</p>
+        <div class="tags">
+            <span>Inteligência Artificial</span>
+            <span>Realidade Virtual</span>
+            <span>Jogos Sérios</span>
+        </div>
+        <div class="links">
+            <a href="#" class="btn-projeto">Ver Artigo <i class="fas fa-file-alt"></i></a>
+            <a href="#" class="btn-projeto">GitHub <i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</div>
         </section>
 
         <section id="contato" class="section reveal">
             <h2>Vamos Conversar?</h2>
             <p>Estou sempre aberta a novas oportunidades e colaborações. Sinta-se à vontade para me contatar!</p>
-            <a href="mailto:laliahaidara@gmail.com" class="btn-rosa">Enviar E-mail</a>
+            <a href="mailto:laliahaidarasadio@gmail.com" class="btn-rosa">Enviar E-mail</a>
         </section>
     </main>
 
     <footer>
-        <p>© 2025 LALIA SADIO. Criado com 🌸 e muito código.</p>
+        <p>© 2025 LALIA SADIO.</p>
     </footer>
 
     <script src="script.js"></script>

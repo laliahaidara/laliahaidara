@@ -33,115 +33,48 @@ body {
    FUNDO ANIMADO "AURORA"
    ================================= */
 .aurora-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;
 }
-
 .aurora-shape {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(100px);
-    opacity: 0.4;
+    position: absolute; border-radius: 50%; filter: blur(100px); opacity: 0.4;
 }
-
 .shape1 {
-    width: 400px;
-    height: 400px;
-    background: var(--rosa-principal);
-    top: -150px;
-    left: -150px;
-    animation: move1 15s infinite alternate;
+    width: 400px; height: 400px; background: var(--rosa-principal); top: -150px; left: -150px; animation: move1 15s infinite alternate;
 }
-
 .shape2 {
-    width: 500px;
-    height: 500px;
-    background: var(--rosa-claro);
-    bottom: -200px;
-    right: -200px;
-    animation: move2 18s infinite alternate;
+    width: 500px; height: 500px; background: var(--rosa-claro); bottom: -200px; right: -200px; animation: move2 18s infinite alternate;
 }
-
 .shape3 {
-    width: 300px;
-    height: 300px;
-    background: #FFD700; /* Gold - to add a warm accent */
-    bottom: 50%;
-    right: 30%;
-    animation: move3 20s infinite alternate;
+    width: 300px; height: 300px; background: #FFD700; bottom: 50%; right: 30%; animation: move3 20s infinite alternate;
 }
-
-@keyframes move1 {
-    to { transform: translate(100px, 150px); }
-}
-@keyframes move2 {
-    to { transform: translate(-150px, -100px); }
-}
-@keyframes move3 {
-    to { transform: rotate(360deg) translate(50px); }
-}
+@keyframes move1 { to { transform: translate(100px, 150px); } }
+@keyframes move2 { to { transform: translate(-150px, -100px); } }
+@keyframes move3 { to { transform: rotate(360deg) translate(50px); } }
 
 /* =================================
    CABEÇALHO E NAVEGAÇÃO
    ================================= */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 5%;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: rgba(255, 240, 245, 0.5); /* Fundo com transparência */
-    backdrop-filter: blur(10px); /* Efeito de vidro fosco */
-    border-bottom: 1px solid var(--borda-suave);
+    display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; position: sticky; top: 0; z-index: 100; background: rgba(255, 240, 245, 0.5); backdrop-filter: blur(10px); border-bottom: 1px solid var(--borda-suave);
 }
-
 .logo {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--rosa-principal);
+    font-size: 1.8rem; font-weight: 700; color: var(--rosa-principal);
 }
-
 .logo span {
-    color: var(--texto-escuro);
-    font-weight: 400;
+    color: var(--texto-escuro); font-weight: 400;
 }
-
 .navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 35px;
+    list-style: none; display: flex; gap: 35px;
 }
-
 .navbar a {
-    text-decoration: none;
-    color: var(--texto-escuro);
-    font-weight: 500;
-    position: relative;
-    transition: color 0.3s;
+    text-decoration: none; color: var(--texto-escuro); font-weight: 500; position: relative; transition: color 0.3s;
 }
-
 .navbar a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: var(--rosa-principal);
-    transition: width 0.3s ease-out;
+    content: ''; position: absolute; width: 0; height: 2px; bottom: -5px; left: 0; background-color: var(--rosa-principal); transition: width 0.3s ease-out;
 }
-
 .navbar a:hover {
     color: var(--rosa-principal);
 }
-
 .navbar a:hover::after {
     width: 100%;
 }
@@ -150,215 +83,141 @@ body {
    HERO SECTION
    ================================= */
 .hero {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    min-height: 100vh; display: flex; flex-direction: column;
 }
 .hero-content {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5%;
+    flex-grow: 1; display: flex; align-items: center; justify-content: center; padding: 0 5%;
 }
 .hero-text-img-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    max-width: 1100px;
-    width: 100%;
+    display: flex; align-items: center; justify-content: space-between; gap: 50px; max-width: 1100px; width: 100%;
 }
 .hero-text {
     max-width: 600px;
 }
 .hero-text h2 {
-    font-size: 3rem;
-    line-height: 1.2;
-    margin-bottom: 20px;
+    font-size: 3rem; line-height: 1.2; margin-bottom: 20px;
 }
 .hero-text h2 span {
-    color: var(--rosa-principal);
-    font-weight: 700;
+    color: var(--rosa-principal); font-weight: 700;
 }
 .hero-text p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+    font-size: 1.2rem; margin-bottom: 30px;
 }
 .hero-img img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid var(--texto-claro);
-    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.4);
-}
-.socials a {
-    color: var(--texto-escuro);
-    font-size: 1.8rem;
-    margin-right: 20px;
-    transition: color 0.3s, transform 0.3s;
-}
-.socials a:hover {
-    color: var(--rosa-principal);
-    transform: translateY(-3px);
+    width: 250px; height: 250px; object-fit: cover; border-radius: 50%; border: 5px solid var(--texto-claro); box-shadow: 0 10px 30px rgba(255, 105, 180, 0.4);
 }
 
+/* AJUSTE: CTA (Botão + Ícones) na Seção Hero */
+.hero-cta {
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Espaço entre o botão e os ícones */
+}
+
+.socials {
+    display: flex;
+    gap: 20px; /* Espaço entre os ícones */
+}
+
+.socials a {
+    color: var(--texto-escuro); font-size: 1.8rem; transition: color 0.3s, transform 0.3s;
+}
+.socials a:hover {
+    color: var(--rosa-principal); transform: translateY(-3px);
+}
 
 /* =================================
    BOTÕES E ELEMENTOS GERAIS
    ================================= */
 .btn-rosa {
-    padding: 12px 30px;
-    background: var(--rosa-principal);
-    color: var(--texto-claro);
-    border: none;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
-    transition: all 0.3s ease;
-    cursor: pointer;
+    padding: 12px 30px; background: var(--rosa-principal); color: var(--texto-claro); border: none; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4); transition: all 0.3s ease; cursor: pointer; display: inline-block; /* Garante que o botão se comporte bem com flex */
 }
-
 .btn-rosa:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.6);
+    transform: translateY(-3px); box-shadow: 0 8px 25px rgba(255, 105, 180, 0.6);
 }
-
 .section {
-    padding: 100px 5%;
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
+    padding: 100px 5%; max-width: 1200px; margin: auto; text-align: center;
 }
-
 .section h2 {
-    font-size: 2.5rem;
-    color: var(--rosa-principal);
-    margin-bottom: 50px;
-    position: relative;
+    font-size: 2.5rem; color: var(--rosa-principal); margin-bottom: 50px; position: relative;
 }
 .section h2::after {
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 4px;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--rosa-claro);
-    border-radius: 2px;
+    content: ''; position: absolute; width: 80px; height: 4px; bottom: -15px; left: 50%; transform: translateX(-50%); background: var(--rosa-claro); border-radius: 2px;
 }
 
 /* =================================
-   SEÇÃO DE PROJETOS (O GRANDE UPGRADE!)
+   SEÇÃO DE PROJETOS
    ================================= */
 .projetos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px;
-    text-align: left;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; text-align: left;
 }
-
 .projeto-card {
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--borda-suave);
-    border-radius: 20px;
-    padding: 25px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    transform-style: preserve-3d; /* Ativa o 3D para o hover */
+    background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(20px); border: 1px solid var(--borda-suave); border-radius: 20px; padding: 25px; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); transition: transform 0.4s ease, box-shadow 0.4s ease; transform-style: preserve-3d;
 }
-
 .projeto-card:hover {
-    transform: perspective(1000px) rotateY(5deg) rotateX(5deg) scale(1.05);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    transform: perspective(1000px) rotateY(5deg) rotateX(5deg) scale(1.05); box-shadow: 0 15px 40px rgba(0,0,0,0.2);
 }
-
 .projeto-card img {
-    width: 100%;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    object-fit: cover;
+    width: 100%; border-radius: 15px; margin-bottom: 20px; object-fit: cover;
 }
-
 .projeto-card h3 {
-    font-size: 1.5rem;
-    color: var(--rosa-principal);
-    margin-bottom: 10px;
+    font-size: 1.5rem; color: var(--rosa-principal); margin-bottom: 10px;
 }
-
 .projeto-card p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 1rem; line-height: 1.6; margin-bottom: 20px;
 }
-
 .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 25px;
+    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 25px;
 }
-
 .tags span {
-    background-color: rgba(255, 105, 180, 0.1);
-    color: var(--rosa-principal);
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 500;
+    background-color: rgba(255, 105, 180, 0.1); color: var(--rosa-principal); padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 500;
 }
-
 .links {
-    display: flex;
-    gap: 15px;
+    display: flex; gap: 15px;
 }
-
 .btn-projeto {
-    text-decoration: none;
-    color: var(--texto-escuro);
-    font-weight: 500;
-    transition: color 0.3s;
+    text-decoration: none; color: var(--texto-escuro); font-weight: 500; transition: color 0.3s;
 }
-
 .btn-projeto:hover {
     color: var(--rosa-principal);
 }
-
 .btn-projeto i {
     margin-left: 5px;
+}
+
+/* NOVO: Card de Projeto em Destaque */
+.projeto-card-destaque {
+    background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(20px); border: 1px solid var(--rosa-principal); border-radius: 20px; padding: 25px; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); transition: transform 0.4s ease, box-shadow 0.4s ease; transform-style: preserve-3d; position: relative; overflow: hidden; grid-column: 1 / -1;
+}
+.selo-publicacao {
+    position: absolute; top: 20px; right: -50px; background: var(--rosa-principal); color: var(--texto-claro); padding: 8px 60px; font-weight: bold; font-size: 0.9rem; transform: rotate(45deg); box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 2;
+}
+.selo-publicacao i {
+    margin-right: 8px;
+}
+.projeto-card-destaque .btn-rosa {
+    padding: 10px 25px;
 }
 
 /* =================================
    ANIMAÇÃO DE SCROLL
    ================================= */
 .reveal {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    opacity: 0; transform: translateY(50px); transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-
 .reveal.active {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 1; transform: translateY(0);
 }
 
 /* =================================
    FOOTER E OUTRAS SEÇÕES
    ================================= */
 #sobre p {
-    max-width: 800px;
-    margin: 0 auto 20px auto;
+    max-width: 800px; margin: 0 auto 20px auto;
 }
 #contato p {
-    max-width: 600px;
-    margin: 0 auto 30px auto;
+    max-width: 600px; margin: 0 auto 30px auto;
 }
 footer {
-    padding: 25px 5%;
-    text-align: center;
-    background: transparent;
+    padding: 25px 5%; text-align: center; background: transparent;
 }
