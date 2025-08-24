@@ -1,36 +1,37 @@
-particlesJS("particles-js", {
-  particles: {
-    number: { value: 60, density: { enable: true, value_area: 800 } },
-    color: { value: "#ffffff" },
-    shape: { type: "circle" },
-    opacity: { value: 0.5 },
-    size: { value: 3 },
-    line_linked: {
-      enable: true,
-      distance: 150,
-      color: "#fa69b5",
-      opacity: 0.4,
-      width: 1
-    },
-    move: { enable: true, speed: 2 }
-  },
-  interactivity: {
-    events: { onhover: { enable: true, mode: "grab" } },
-    modes: {
-      grab: { distance: 140, line_linked: { opacity: 1 } }
-    }
-  },
-  retina_detect: true
-});
+// --- LÓGICA PARA BOTÃO "LEIA MAIS" (JÁ ESTAVA BOM!) ---
 const toggleBtn = document.getElementById("toggleBtn");
 const maisTexto = document.getElementById("maisTexto");
 
-toggleBtn.addEventListener("click", () => {
-  if (maisTexto.style.display === "none") {
-    maisTexto.style.display = "inline";
-    toggleBtn.textContent = "Mostrar menos";
-  } else {
-    maisTexto.style.display = "none";
-    toggleBtn.textContent = "Leia mais";
-  }
+if (toggleBtn) {
+    toggleBtn.addEventListener("click", () => {
+        if (maisTexto.style.display === "none" || maisTexto.style.display === "") {
+            maisTexto.style.display = "inline";
+            toggleBtn.textContent = "Mostrar menos";
+        } else {
+            maisTexto.style.display = "none";
+            toggleBtn.textContent = "Leia mais";
+        }
+    });
+}
+
+
+// --- NOVA LÓGICA PARA ANIMAÇÃO DE SCROLL ---
+const revealElements = document.querySelectorAll(".reveal");
+
+const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        // Se o elemento está visível na tela
+        if (entry.isIntersecting) {
+            entry.target.classList.add("active");
+            // Opcional: para a animação não repetir, des-observe o elemento
+            observer.unobserve(entry.target);
+        }
+    });
+}, {
+    threshold: 0.15 // A animação começa quando 15% do elemento está visível
+});
+
+// "Observa" cada elemento que tem a classe .reveal
+revealElements.forEach(element => {
+    revealObserver.observe(element);
 });
