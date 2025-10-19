@@ -5,6 +5,7 @@
 <p align="center">
   <a href="mailto:laliahaidarasadio@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/lalia-sadio/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="http://lattes.cnpq.br/8682026692959475"><img src="https://img.shields.io/badge/-Lattes-004382?style=for-the-badge&logo=lattes&logoColor=white" alt="Currículo Lattes" /></a>
 </p>
 
 ---
